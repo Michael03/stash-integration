@@ -23,7 +23,6 @@
 				"command": "extension.getPullRequestComments",
 				"title": "Get Comments From Stash"
 			}
-			
 		],
 		"menus": {
 			"editor/context": [
@@ -33,6 +32,19 @@
 					"command": "extension.openInStash"
 				}
 			]
+		},
+		"configuration": {
+			"title": "Stash",
+			"properties": {
+				"stash.apiKey": {
+					"type": [
+						"string",
+						"null"
+					],
+					"default": null,
+					"description": "Stash apikey with read access."
+				}
+			}
 		}
 	},
 	"scripts": {
