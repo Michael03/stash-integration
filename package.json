@@ -3,11 +3,11 @@
 	"displayName": "stash",
 	"description": "open code in stash",
 	"publisher": "stash-integration",
-	"version": "0.1.2",
+	"version": "0.2.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Michael03/stash-integration"
-	  },
+	},
 	"engines": {
 		"vscode": "^1.44.0"
 	},
