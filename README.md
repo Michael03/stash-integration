@@ -1,6 +1,4 @@
-# stash README
-
-Stash integration
+# Stash integration
 
 ## Features
 
