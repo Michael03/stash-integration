@@ -6,7 +6,6 @@ export async function getStashApiRoot(folder: string) {
     return `https://${config.url}/rest/api/1.0/projects/${config.project}/repos/${config.repo}`;
 }
 
-
 export async function getRepoPath(folder: string) {
     const config = await getRepoParts(folder);
     return `https://${config.url}/projects/${config.project}/repos/${config.repo}`;
