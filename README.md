@@ -4,10 +4,11 @@ Stash integration
 
 ## Features
 
-Adds 2 commands to work with stash
-cmd+shift+p to run the commands
-Open In Stash - Opens the selected lines in stash based on the git config origin
-Get Comments From Stash - Pull down pull request comments from stash for this git branch
+Adds 3 commands to work with stash
+`CMD+SHIFT+P` to run the commands
+1. Open In Stash - Opens the selected lines in stash based on the git config origin
+2. Copy Stash Link - Copy the stash link instead of opening in the browser
+3. Get Comments From Stash - Pull down pull request comments from stash for this git branch
 
 
 ## Requirements
@@ -28,6 +29,10 @@ Users appreciate release notes as you update your extension.
 
 ### 0.0.1
 Initial release
+
+-----------------------------------------------------------------------------------------------------------
+### 0.1.1
+Added copy stash link command
 
 -----------------------------------------------------------------------------------------------------------
 
